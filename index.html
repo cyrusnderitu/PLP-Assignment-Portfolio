@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar " style="z-index: 99999;">
+            <div class="Logo">
+                    <h2 class="nav_logo">PLP PortFolio <span>Assignment</span></h2>
+            </div>
+            <div class="nav_menu">
+                <ul class="nav_links">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                </ul>
+                <button class="nav_btn"><a href="#Contact">Contact</a></button>
+        </div>
+        </nav>
+        <section class="hero">
+            <div class="hero_sect">
+                <div class="">
+                    <h1 class="hero_title">Hi, I'm <span class="flicker">Cyrus Nderitu !</span><br>I'm a <span style="color: #BBBE64; font-weight: 800;">Software Engineer</span></h1>
+                    <p class="hero_desc">Feel free to explore my portfolio <br> --I'd love to connect--</p>
+                    <div class="hero_cta">
+                        <button class="hero_btn">Book a Call</button>
+                        <span style="color: #BBBE64; border: 1px solid; border-radius: 20px; padding:10px 2rem;">
+                            <i class="fa-solid fa-circle-dot fa-fade" ;"></i>
+                            <p>Open for work</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="hero_img">
+                    <div class="">
+                        <dotlottie-player
+                            src="https://lottie.host/7b5021eb-b4e6-41cc-a76e-c351d3445204/n1KD7guQiH.lottie"
+                            background="transparent"
+                            speed="1"
+                            style="width: 600px; height: 500px"
+                            loop
+                            autoplay
+                            style="z-index: 0;"></dotlottie-player>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!--About Section -->
+        <section class="about_section" id="About">
+            <div class="about_img">
+                <dotlottie-player
+                src="https://lottie.host/5bbc0ef7-25a3-48bb-9025-d081252a9bab/tX4uiOSPzk.lottie"
+                background="transparent"
+                speed="1"
+                style="width: 400px; height: 400px"
+                loop
+                autoplay
+              ></dotlottie-player>
+            </div>
+            <div class="about_desc">
+                    <h2 class="">About Me</h2>
+                    <p>Hello! I'm a Software Engineer with a passion for building full-stack web applications. With experience in the MERN stack (MongoDB, Express, React, Node.js) and proficiency in HTML, CSS, JavaScript, and Firebase some bits of MySQL.</p>
+                    <p>I'm driven by solving complex problems and continuously learning new technologies. When I'm not coding, you can find me experimenting in the kitchen or diving into new projects to challenge myself.</p>
+
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>
+                                <i class="fa-brands fa-html5"></i>
+                                HTML
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                CSS
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-js"></i>
+                                JavaScript
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-react"></i>
+                                React Js
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-database"></i>
+                                Firebase
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-server"></i>
+                                MySQL
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-github"></i>
+                                Github
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <!-- Projects Section -->
+     <section id="Projects">
+        <h1>My Projects</h1>
+        <div class="projects-grid">
+            <div class="card">Gym/Workout App</div>
+            <div class="card">Coffee App</div>
+            <div class="card">Portfolio Website</div>
+            <div class="card">Another Project</div>
+        </div>
+
+     </section>
+     <section id="contact" class="section">
+        <div class="contact-section">
+            <h1>Contact Me</h1>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 All rights reserved, Cyrus Nderitu
+    </footer>
+</body>
+<script
+  src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+  type="module"
+></script>
+</html>
