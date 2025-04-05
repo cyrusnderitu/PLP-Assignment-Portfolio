@@ -98,6 +98,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: 6rem;
 }
 .hero_cta{
     display: flex;
